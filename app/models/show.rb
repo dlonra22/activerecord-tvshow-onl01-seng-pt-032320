@@ -11,5 +11,4 @@ class Show < ActiveRecord::Base
     Show.find_by(rating: #{self.minimum(:rating)})
   end
   
-  
 end
